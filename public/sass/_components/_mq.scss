@@ -1,0 +1,391 @@
+@media (max-width: 1400px) {
+    .card-six {
+        .card-title {
+            h3 {
+                display: block;
+            }
+        }
+        .card-desc {
+            table {
+                th {
+                    width: 35% !important;
+                }
+                td {
+                    width: 65% !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .card-six {
+        .card-title {
+            h3 {
+                display: block;
+            }
+        }
+        .card-desc {
+            table {
+                th {
+                    width: 35% !important;
+                }
+                td {
+                    width: 65% !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1024px) {
+    #myHeader {
+        background: $white;
+    }
+    .grid-box {
+        column-gap: 1rem;
+    }
+    .banner-wrapper {
+        padding-top: 5rem;
+        .banner-img {
+            height: 20rem;
+            width: 20rem;
+            &.banner-img-1 {
+                right: 2.875rem;
+                top: 9.5rem;
+                clip-path: inset(50px round 45px 45px 45px 45px);
+            }
+            &.banner-img-2 {
+                right: -8.625rem;
+                top: -1.875rem;
+                clip-path: inset(50px round 45px 45px 45px 45px);
+            }
+        }
+    }
+
+    .page-bg {
+        .blog-meta-text {
+            width: 100%;
+            .blog-post {
+                font-size: 1.25rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .blog-img {
+        height: auto;
+        margin-top: -20%;
+    }
+
+    #mb-view {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        background: $white;
+        background: rgba(0, 0, 0, 0.4);
+        .mb-content {
+            background: $white;
+            width: 50%;
+            height: 100%;
+        }
+        .mb-header {
+            padding: 1.125rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid $btnColor-1;
+            h5 {
+                margin-bottom: 0;
+            }
+        }
+        .closebtn {
+            font-size: 36px;
+        }
+        .trip-sidebar {
+            margin-top: 0;
+            border-radius: 0;
+        }
+    }
+
+    .card-six {
+        .card-title {
+            h3 {
+                display: block;
+            }
+        }
+        .card-desc {
+            table {
+                th {
+                    width: 35% !important;
+                }
+                td {
+                    width: 65% !important;
+                }
+            }
+        }
+    }
+
+    footer {
+        .copyright {
+            text-align: center;
+        }
+        .footer-nav {
+            display: flex;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+    }
+}
+@media (max-width: 767px) {
+    #myHeader {
+        background: $white;
+    }
+    .logo {
+        img {
+            height: 3.125rem;
+            width: auto;
+            object-fit: contain;
+        }
+    }
+    .banner-left {
+        .section-title {
+            .title {
+                font-size: 1.125rem;
+            }
+        }
+    }
+    .banner-wrapper {
+        padding-top: 5rem;
+        .banner-img {
+            &.banner-img-1 {
+                right: 2.875rem;
+                top: 12.5rem;
+                clip-path: inset(25px round 25px 25px 25px 25px);
+                height: 13rem;
+                width: 13rem;
+            }
+            &.banner-img-2 {
+                right: -6.1875rem;
+                top: 4.9375rem;
+                clip-path: inset(25px round 25px 25px 25px 25px);
+                height: 13rem;
+                width: 13rem;
+            }
+        }
+    }
+    .grid-box {
+        grid-template-columns: auto;
+    }
+
+    .about-section {
+        .about-img {
+            img {
+                height: 12rem;
+                margin-bottom: 1.875rem;
+            }
+        }
+        .about-post-content {
+            text-align: center;
+        }
+        .about-content {
+            margin-bottom: 1.875rem;
+        }
+    }
+
+    .support {
+        .support-img {
+            margin-top: 1.875rem;
+        }
+    }
+
+    .subscribe {
+        padding: 1.25rem;
+    }
+
+    .owl-carousel {
+        .owl-nav {
+            position: relative;
+            top: -1.875rem;
+        }
+    }
+
+    .filter-list {
+        label {
+            text-align: left;
+            margin: 2rem 0;
+        }
+    }
+
+    .trip-sidebar {
+        .sidebar-card {
+            .more {
+                text-align: left !important;
+            }
+        }
+    }
+
+    .card-four {
+        justify-content: flex-start;
+        flex-direction: column;
+        .card-img {
+            height: 15rem;
+            width: 100%;
+        }
+        .card-content {
+            .card-content-desc {
+                .icon-text {
+                    padding-left: 1.25rem;
+                    &::before {
+                        height: 1rem;
+                        width: 1rem;
+                        top: 0.25rem;
+                    }
+                }
+                .half-content {
+                    -webkit-line-clamp: 2;
+                }
+            }
+        }
+        .booking-content {
+            width: 100%;
+            border-left: none;
+            border-top: 1px solid #e0c097;
+            padding-top: 0.9375rem;
+            margin-top: 0;
+            > div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 1rem;
+                h4,
+                h3 {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .page-bg {
+        .blog-meta-text {
+            width: 100%;
+            .blog-post {
+                font-size: 1.25rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .blog-img {
+        height: auto;
+        margin-top: -40%;
+    }
+
+    #mb-view {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        background: $white;
+        background: rgba(0, 0, 0, 0.4);
+        .mb-content {
+            background: $white;
+            width: 70%;
+            height: 100%;
+        }
+        .mb-header {
+            padding: 1.125rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid $btnColor-1;
+            h5 {
+                margin-bottom: 0;
+            }
+        }
+        .closebtn {
+            font-size: 36px;
+        }
+        .trip-sidebar {
+            margin-top: 0;
+            border-radius: 0;
+        }
+    }
+
+    .card-six {
+        .card-content {
+            display: block;
+        }
+        .card-img {
+            width: 100% !important;
+            height: 300px;
+        }
+    }
+    footer {
+        .copyright {
+            text-align: center;
+        }
+        .footer-nav {
+            display: flex;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+    }
+
+    .departure-date-list {
+        .dept-date {
+            display: none;
+        }
+    }
+}
+@media (max-width: 480px) {
+}
+
+@media all and (min-width: 992px) {
+    .navbar .dropdown-menu-end {
+        right: 0;
+        left: auto;
+    }
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s;
+        margin-top: 0;
+    }
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: 0.3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+}
+
+@media (max-width: 767px) {
+}

@@ -1,0 +1,59 @@
+footer {
+    background-color: $btnColor-1;
+    padding: .625rem 0;
+}
+
+.footer-nav {
+    .footer-nav-item {
+        .footer-nav-link {
+            color: $white;
+            font-weight: 600;
+            font-size: 1rem;
+            text-transform: capitalize;
+            &:hover {
+                color: $hover-color;
+            }
+        }
+    }
+}
+
+.footer-col {
+    .footer-title {
+        color: $light-black;
+        font-size: 1.5rem;
+        margin-bottom: 0.9375rem;
+        text-transform: capitalize;
+    }
+    ul {
+        li {
+            margin-bottom: 0.625rem;
+            font-weight: 500;
+            font-size: 1.125rem;
+            a {
+                color: $hover-color;
+                text-transform: capitalize;
+                &:hover {
+                    color: $btnColor-1;
+                }
+            }
+        }
+    }
+    form {
+        .form-control {
+            border-radius: 0.625rem;
+        }
+    }
+    .footer-social {
+        li {
+            display: inline-block;
+        }
+    }
+}
+.copyright {
+    background: $btnColor-1;
+    p {
+        color: $white;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}

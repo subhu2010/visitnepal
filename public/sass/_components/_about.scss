@@ -1,0 +1,35 @@
+.about-page {
+    .about-post-video {
+        img {
+            height: 35rem;
+        }
+        .play-icon {
+            width: 100%;
+            text-align: center;
+            h1 {
+                color: $white;
+                font-size: 2rem;
+                margin-bottom: 0;
+                margin-top: 40px;
+            }
+            .btnColor-1 {
+                padding: 0.625rem 5rem;
+            }
+        }
+    }
+    h4.moto {
+        text-align: center;
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+.about-content {
+    img {
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 1.875rem;
+    }
+}

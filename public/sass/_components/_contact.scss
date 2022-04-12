@@ -1,0 +1,43 @@
+.contact {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin-top: -28rem;
+    form {
+        box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+        background: $white;
+        padding: 3.125rem;
+        .form-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: $btnColor-1;
+            margin-bottom: 3.125rem;
+            h1 {
+                font-weight: 400;
+                font-size: 2.25rem;
+            }
+            span {
+                font-size: 2.5rem;
+            }
+        }
+        .contact-control {
+            border: none;
+            border-radius: 0;
+            border-bottom: 1px solid $btnColor-2;
+            padding: 0px 0 0 0;
+            height: 2.5rem;
+        }
+        .text-control {
+            height: 10rem;
+        }
+        label {
+            padding: 0px 0 0 0;
+            font-size: 20px;
+        }
+        .btnColor-1 {
+            padding: 15px 80px;
+            font-size: 20px;
+        }
+    }
+}
